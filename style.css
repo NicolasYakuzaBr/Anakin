@@ -1,0 +1,77 @@
+
+body {
+    background-color: black;
+    overflow: scroll y;
+    margin: 200px;
+}
+
+.title {
+    color: yellow;
+    font-family: Consolas, monospace;
+    text-align: center;
+    margin-top: -180px;
+}
+
+  
+.subtitle {
+    color: yellow;
+    font-family: Consolas, monospace;
+    text-align: center;
+    margin-top: -15px;
+    font-size: 15px;
+}
+
+.character-title {
+    color: rgb(255, 255, 255);
+    font-family: Consolas, monospace;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.character-info {
+    color: yellow;
+    font-family: Consolas, monospace;
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.img-character {
+    text-align: center;
+}
+
+.episode-title {
+    color: rgb(255, 255, 255);
+    font-family: Consolas, monospace;
+    text-align: center;
+    margin-top: 25px;
+}
+  
+.star {
+    position: fixed;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    box-shadow: 0 0 5px white;
+    animation: twinkle 1s infinite;
+    z-index: 9999;
+}
+.embed {
+    text-align: center;
+}
+
+@keyframes twinkle {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+
+  
